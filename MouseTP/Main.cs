@@ -18,7 +18,7 @@ namespace MouseTP
             if (RoomManagerBase.field_Internal_Static_ApiWorld_0 == null ||
                 RoomManagerBase.field_Internal_Static_ApiWorldInstance_0 == null)
                 return;
-
+             
             if (Input.GetKey(KeyCode.LeftControl) && Input.GetKeyDown(KeyCode.Mouse0))
             {
                 var r = new Ray(Camera.main.transform.position, Camera.main.transform.forward);
